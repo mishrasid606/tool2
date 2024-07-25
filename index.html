@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Page Deleter</title>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Page from PDF</h1>
+        <input type="file" id="file-input" accept="application/pdf">
+        <input type="number" id="page-number" placeholder="Enter page number to delete" min="1">
+        <button id="delete-button">Delete Page</button>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
